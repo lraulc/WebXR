@@ -37,31 +37,31 @@
 *.s3m lfs
 *.xm lfs
 # Video
-*.mov lfs
-*.avi lfs
-*.asf lfs
-*.mpg lfs
-*.mpeg lfs
-*.mp4 lfs
-*.flv lfs
-*.ogv lfs
-*.wmv lfs
+*.mov lfs filter=lfs diff=lfs merge=lfs -text
+*.avi lfs filter=lfs diff=lfs merge=lfs -text
+*.asf lfs filter=lfs diff=lfs merge=lfs -text
+*.mpg lfs filter=lfs diff=lfs merge=lfs -text
+*.mpeg lfs filter=lfs diff=lfs merge=lfs -text
+*.mp4 lfs filter=lfs diff=lfs merge=lfs -text
+*.flv lfs filter=lfs diff=lfs merge=lfs -text
+*.ogv lfs filter=lfs diff=lfs merge=lfs -text
+*.wmv lfs filter=lfs diff=lfs merge=lfs -text
 # 3D
 *.fbx filter=lfs diff=lfs merge=lfs -text
-*.obj lfs
-*.max lfs
-*.blend lfs
-*.blender lfs
-*.dae lfs
-*.mb lfs
-*.ma lfs
-*.3ds lfs
-*.dfx lfs
-*.c4d lfs
-*.lwo lfs
-*.lwo2 lfs
-*.abc lfs
-*.3dm lfs
-*.bin lfs
+*.obj lfs filter=lfs diff=lfs merge=lfs -text
+*.max lfs filter=lfs diff=lfs merge=lfs -text
+*.blend lfs filter=lfs diff=lfs merge=lfs -text
+*.blender lfs filter=lfs diff=lfs merge=lfs -text
+*.dae lfs filter=lfs diff=lfs merge=lfs -text
+*.mb lfs filter=lfs diff=lfs merge=lfs -text
+*.ma lfs filter=lfs diff=lfs merge=lfs -text
+*.3ds lfs filter=lfs diff=lfs merge=lfs -text
+*.dfx lfs filter=lfs diff=lfs merge=lfs -text
+*.c4d lfs filter=lfs diff=lfs merge=lfs -text
+*.lwo lfs filter=lfs diff=lfs merge=lfs -text
+*.lwo2 lfs filter=lfs diff=lfs merge=lfs -text
+*.abc lfs filter=lfs diff=lfs merge=lfs -text
+*.3dm lfs filter=lfs diff=lfs merge=lfs -text
+*.bin lfs filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
-*.gltf lfs
+*.gltf lfs filter=lfs diff=lfs merge=lfs -text
