@@ -6,7 +6,7 @@
 *.atsc lfs
 *.gif lfs
 *.bmp lfs
-*.exr lfs
+*.exr filter=lfs diff=lfs merge=lfs -text
 *.tga lfs
 *.tiff lfs
 *.tif lfs
@@ -25,7 +25,7 @@
 *.psd lfs
 *.afphoto lfs
 *.afdesign lfs
-
+*.hdr filter=lfs diff=lfs merge=lfs -text
 # Audio
 *.mp3 lfs
 *.ogg lfs
@@ -36,7 +36,6 @@
 *.it lfs
 *.s3m lfs
 *.xm lfs
-
 # Video
 *.mov lfs
 *.avi lfs
@@ -47,9 +46,8 @@
 *.flv lfs
 *.ogv lfs
 *.wmv lfs
-
 # 3D
-*.fbx lfs
+*.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj lfs
 *.max lfs
 *.blend lfs
@@ -65,5 +63,5 @@
 *.abc lfs
 *.3dm lfs
 *.bin lfs
-*.glb lfs
+*.glb filter=lfs diff=lfs merge=lfs -text
 *.gltf lfs
