@@ -1,13 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+		<title>Learn WebXR - lecture 3.1</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!--favicon -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!-- end favicon -->
+	</head>
+	<body>
+        <script type="module">
+            import { App } from '/main.js';
+
+            document.addEventListener("DOMContentLoaded", function(){
+                const app = new App();
+                window.app = app;
+            });
+        </script>
+	</body>
 </html>
